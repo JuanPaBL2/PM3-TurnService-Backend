@@ -12,7 +12,7 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'http://localhost:3001', // URL base de tu API
+      url: 'https://pm3-turnservice-backend-production.up.railway.app/', // URL base de tu API
     },
   ],
 };
