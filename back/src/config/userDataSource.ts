@@ -5,15 +5,10 @@ import { Turn } from "../entidades/turnEntity";
 
 require("dotenv").config();
 
-const DB_PASS = process.env.claveDB;
 
 export const AppDataSource = new DataSource({ 
-    type: "postgres",
-    host: "localhost",
-    port: 5432,
-    username: "postgres",
-    password: DB_PASS,
-    database: "testdb", 
+    type: 'postgres', 
+    url: process.env.DATABASE_URL,
     synchronize: true,
     logging: true, 
     entities: [User, Turn, Credential], 
