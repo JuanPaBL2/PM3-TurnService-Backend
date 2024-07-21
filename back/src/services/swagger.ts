@@ -6,9 +6,9 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDefinition = {
   openapi: '3.0.0',
   info: {
-    title: 'Documentación de la API', // Título de tu API
+    title: 'API de Sicherheit Bank', // Título de tu API
     version: '1.0.0', // Versión de tu API
-    description: 'Descripción de tu API', // Descripción de tu API
+    description: 'API rest desarrollada por Juan Pablo Del Rosso ', // Descripción de tu API
   },
   servers: [
     {
