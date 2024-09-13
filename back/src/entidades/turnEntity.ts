@@ -19,7 +19,7 @@ export class Turn {
 
     //aca deberia ser por default active.
     @Column({default: "active"})
-    status: "active" | "cancelled"; //sera el string especific active o cancelled
+    status: "active" | "cancelled"; 
 }
 
 
